@@ -18,4 +18,5 @@ def printer(a)
   assign_rooms(a).each do |rooms|
     puts "#{rooms}"
   end
+  end
 end
