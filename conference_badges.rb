@@ -8,9 +8,11 @@ def badge_maker(name)
    
 def assign_rooms(attendees)
     attendees.each_with_index do |attendee, room|
-      puts "Hello, #{attendee}! You'll be assigned to  #{room + 1}
-  end
+      puts "Hello, #{attendee}! You'll be assigned to  #{room + 1}"
+    end
     
-def printer
+def printer(array)
+  batch_badge_creator(array)
+  
 
 end
