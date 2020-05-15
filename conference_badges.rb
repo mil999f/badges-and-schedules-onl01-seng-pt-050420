@@ -6,5 +6,3 @@ def badge_maker(name)
     attendees.collect{|name| puts "Hello, my name is #{name}."
    end
    
-  def assign_rooms(attendees)
-end
