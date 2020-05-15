@@ -6,9 +6,10 @@ def batch_badge_creator(attendees)
   return attendees.collect{|name| p "Hello, my name is #{name}."}
 end
    
-def assign_rooms(attendees)
-  attendees.map_with_index{ |attendee, room|
-    p "Hello, #{attendee}! You'll be assigned to  #{room + 1}"}
+def assign_rooms(array)
+  array.map_with_index do |attendee, room|
+    "Hello, #{attendee}! You'll be assigned to  #{room + 1}"
+  end
   end
     
 def printer(a)
