@@ -8,14 +8,14 @@ end
    
 def assign_rooms(attendees)
   attendees.each_with_index{ |attendee, room|
-    puts "Hello, #{attendee}! You'll be assigned to  #{room + 1}"}
+    p "Hello, #{attendee}! You'll be assigned to  #{room + 1}"}
   end
     
 def printer(a)
   batch_badge_creator(a).each do |badge|
-    puts "#{badge}"
+    p "#{badge}"
   end
   assign_rooms(a).each do |rooms|
-    puts "#{rooms}"
+    p "#{rooms}"
   end
 end
