@@ -11,8 +11,11 @@ def assign_rooms(attendees)
       puts "Hello, #{attendee}! You'll be assigned to  #{room + 1}"
     end
     
-def printer(array)
-  batch_badge_creator(array)
-  
-
+def printer(a)
+  batch_badge_creator(a).each do |badge|
+    puts '#{badge}'
+  end
+  assign_rooms(a).each do |rooms|
+    puts "#{rooms}"
+  end
 end
