@@ -7,7 +7,7 @@ def badge_maker(name)
    end
    
 def assign_rooms(attendees)
-    attendee.each_with_index do |attendee, room|
+    attendees.each_with_index do |attendee, room|
       puts "Hello, #{attendee}! You'll be assigned to  #{room + 1}
     end
 end
